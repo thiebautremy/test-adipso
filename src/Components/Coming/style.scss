@@ -1,0 +1,62 @@
+.coming {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  &__header{
+    width: 100%;
+    background-color: #f3f3f3;
+    color: #4e4e4e;
+    height: 10em;
+    }
+    &__header {
+      padding: 3em;
+      text-align: center;
+      font-size: 2em;
+      & strong {
+        font-weight: bold;
+      }
+      &__header__article {
+        & p {
+          font-size: 1em;          
+          text-align: start;
+        }
+      }
+    }
+  &__form {
+    width: 100%;
+    height: 70vh;
+    background-color: #175085;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: space-around;
+    padding-top: 9.5em;
+    color: white;
+    &__title {
+      text-align: center;
+      width: 70%;
+      font-size: 1.8em;
+    }
+    & input, & button {
+      width: 80%;
+      height: 3em;
+      font-size: 1.8em;
+      font-weight: bold;
+      border-radius: 0.2em;
+      border: none;
+      text-align: center;
+      margin-top: 0.8em;
+    }
+    & button {
+      background-color: #fbd600;
+      color: #175085;
+    }
+  }
+  
+}
+
+img.ui.image {
+  position: absolute;
+  top: 8em;
+}
