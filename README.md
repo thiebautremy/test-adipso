@@ -27,5 +27,5 @@ https://github.com/thiebautremy/test-adipso
 
 J'ai également déployé sur netlify:
 
-test-thiebautremy.netlify.app
+http://test-thiebautremy.netlify.app
 
