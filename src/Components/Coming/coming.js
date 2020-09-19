@@ -9,6 +9,9 @@ const Coming = () => (
       <p>
         Recevez l'<strong>Appli d'Ostwald</strong> en avant première
       </p>
+      <p>
+        pour suivre en direct les informations pratiques de votre ville
+      </p>
         <article className="coming__header__article">
           <p>Disponible sur les plate-formes iOS et Android</p>
       </article>
@@ -18,9 +21,12 @@ const Coming = () => (
       <p className="coming__form__title">
       Inscrivez vous pour être averti dès que l'appli est disponible
       </p>
-      <input type="email" placeholder="Adresse email"/>
-      <button type="submit">Valider</button>
+        <input type="email" placeholder="Adresse email"/>
+        <button type="submit">Valider</button>
     </form>
+    <footer>
+    © 2013 Ville d'Oswald
+    </footer>
   </div>
 );
 

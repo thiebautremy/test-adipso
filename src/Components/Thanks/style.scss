@@ -1,0 +1,54 @@
+.thanks {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 1em;
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  &__header {
+    color: #175085;
+    border-bottom: 1px solid grey;
+    padding-bottom: 3em;
+    & h1{
+      font-size: 8em;
+      font-weight: bold;
+    }
+    & h2{
+      font-size: 3em;
+      font-weight: normal;
+    }
+  }
+  & section {
+    & h3 {
+      padding-top: 5em;
+      color: #4e4e4e;
+    }
+    & button {
+      width: 80%;
+      font-size: 2em;
+      padding: 0.5em;
+      background-color: #fbd600;
+      border: none;
+      border-radius: 0.1em;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+  & footer {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .thanks {
+    & footer {
+      width: 50%;
+      margin: auto;
+      border-top: 1px solid grey;
+      margin-top: 30%;
+      display: block;
+    }
+  }
+}
